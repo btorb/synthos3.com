@@ -1,0 +1,10 @@
+name = "Synthos3"
+license = "MIT"
+description = "A custom theme for Synthos3 AI consulting company"
+tags = ["tailwind", "responsive", "landing-page"]
+features = ["tailwind", "responsive"]
+min_version = "0.41.0"
+
+[author]
+  name = "Synthos3"
+  homepage = "https://synthos3.com"

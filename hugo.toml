@@ -1,0 +1,14 @@
+baseURL = "https://synthos3.com/"
+languageCode = "en-us"
+title = "Synthos3 - AI Consulting"
+theme = "synthos3"
+
+[params]
+  description = "Exponential intelligence. Delivered."
+  mission = "Create lasting value with human-centric AI. By redesigning end-to-end workflows, integrating AI, and empowering teams, we ensure sustainable value creation and measurable outcomes for organizations adopting AI."
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
