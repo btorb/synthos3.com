@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="py-16">
+    <div class="container">
+        <h1 class="text-3xl md:text-4xl font-orbitron text-center mb-12">{{ .Title }}</h1>
+        <div class="max-w-4xl mx-auto">
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {{ range .Data.Terms.Alphabetical }}
+                <li class="bg-white p-4 rounded-lg shadow-md">
+                    <a href="{{ .Page.Permalink }}" class="text-synthos-primary-500 hover:text-synthos-primary-600 font-orbitron">
+                        {{ .Page.Title }} ({{ .Count }})
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{ end }}

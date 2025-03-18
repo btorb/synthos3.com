@@ -10,7 +10,7 @@
   }
   
   body {
-    @apply bg-white text-synthos-dark font-sans;
+    @apply bg-white text-synthos-dark-800 font-sans;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -28,10 +28,35 @@
   }
   
   .btn-primary {
-    @apply bg-synthos-primary text-white hover:bg-blue-600;
+    @apply bg-synthos-primary-500 text-white hover:bg-synthos-primary-600;
   }
   
   .btn-secondary {
-    @apply bg-synthos-secondary text-white hover:bg-green-600;
+    @apply bg-synthos-secondary-500 text-white hover:bg-synthos-secondary-600;
+  }
+  
+  /* Additional utility classes for easy color adjustments */
+  .bg-primary-gradient {
+    @apply bg-gradient-to-br from-synthos-dark-800 to-synthos-primary-500;
+  }
+  
+  .bg-secondary-gradient {
+    @apply bg-gradient-to-br from-synthos-primary-700 to-synthos-secondary-500;
+  }
+  
+  .text-primary {
+    @apply text-synthos-primary-500;
+  }
+  
+  .text-secondary {
+    @apply text-synthos-secondary-500;
+  }
+  
+  .text-dark {
+    @apply text-synthos-dark-800;
+  }
+  
+  .bg-light {
+    @apply bg-synthos-dark-50;
   }
 }
